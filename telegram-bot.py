@@ -10,7 +10,7 @@ import time
 
 # Set your __Secure-1PSID value to key
 token = '6358708912:AAHaXl-D3lAp_hPfFFsAgSZ9x4FYyn06HCQ'
-token_bard = 'YggFN-25WFa8HZX5uZ32phU6nRmAHIAfP0hHt0NcJapFsDMMKyzL8KHZBxkETsh8zWk2XQ.'
+token_bard = 'YwgFNzIQTuWZmEPfrO8eVGWdRU6RqmQkTfLisYpyXLmHTcjyEt5RDVYNO1UDZPtN0y17BQ.'
 
 from telegram import Update
 
