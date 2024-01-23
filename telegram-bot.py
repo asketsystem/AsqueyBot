@@ -12,6 +12,17 @@ import time
 token = '6358708912:AAHaXl-D3lAp_hPfFFsAgSZ9x4FYyn06HCQ'
 token_bard = 'YwgFNzIQTuWZmEPfrO8eVGWdRU6RqmQkTfLisYpyXLmHTcjyEt5RDVYNO1UDZPtN0y17BQ.'
 
+# Fixing Issue with Cookie Generator
+from bardapi import BardCookies
+cookie_dict = {
+    "__Secure-1PSID": "fggFN4vakaOV370LKJ3j2h3BXHYHbrV84xxurtWDiNibGlIzhaH5c63-LBWQJDaEhe1jzw.",
+    "__Secure-1PSIDTS": "sidts-CjEBPVxjSsLl-IID8lpsxQNGbzMd2-e48U4kqlC1htz4m0wr9yzR5YbYtJ33z_Oio_3yEAA",
+    "__Secure-1PSIDCC": "ABTWhQFOsgi3MUhoKUf5K9Q9H6963He2XZmeRzph20ImXtUuNqcTOsjt4HLqNqtBV3dlwjMpZQ"
+}
+
+bard = BardCookies(cookie_dict=cookie_dict)
+
+
 from telegram import Update
 
 def start(update: Update, context):
